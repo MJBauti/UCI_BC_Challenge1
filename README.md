@@ -17,4 +17,4 @@ I have updated the code by:
 
 When viewed the website will still look like the original:
 
-![The Horiseon webpage](./Assets/images/Horiseon_Website_Screenshot.png)
+![The Horiseon webpage](/Assets/images/Horiseon_Website_Screenshot.png)
