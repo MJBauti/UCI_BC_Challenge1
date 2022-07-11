@@ -1,0 +1,156 @@
+/* Define general website width,height, & padding */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Define website background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Define Header Bar formatting */
+header {
+    padding: 20px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Define Header text formatting */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Define Header text 'seo' a different color */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Define Header Format */
+header nav {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Navigation List bullet format */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Navigation List positioning */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Navigation Link Format */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Font size for general text */
+p {
+    font-size: 16px;
+}
+
+/* Define format of primary image */
+#hero {
+    display: block;
+    height: 800px;
+    width: 100%;    
+    margin-bottom: 25px;    
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Define main formatting */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Define main section to all be same formatting */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Define size for section headers */
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define image size to fit in section properly */
+main section img {
+    max-height: 200px;
+}
+
+/* Position images to left of text */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Position images to right of text */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Define aside formatting */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Define Aside Sections spacing and color */
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define Aside Header spacing and alignment */
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Define aside images formatting */
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Define Footer formatting */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Format Footer header */
+footer h2 {
+    font-size: 20px;
+}
